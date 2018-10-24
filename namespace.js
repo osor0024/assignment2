@@ -12,9 +12,16 @@ var OSOR0024 = {
      Events
 *********************************/
 
-        b.addEventListener("mouseover", mouseOver);
-        b.addEventListener("mouseoute", mouseOut);
-        b.addEventListener("click", click);
+        function mouseover(){
+            b.addEventListener("mouseover", mouseOver);
+        }
+        
+        function mouseout(){
+            b.addEventListener("mouseout", mouseOut);
+                           }
+        function click(){
+            b.addEventListener("click", click);
+        }
         
     }
 }
