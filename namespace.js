@@ -1,6 +1,6 @@
 let b = null;
 var OSOR0024 = {
-    init: function () {
+   init: function () {
     document.createElement("div");
         d.className.add("box");
         b = document.querySelector(".box");
@@ -12,11 +12,11 @@ var OSOR0024 = {
      Events
 *********************************/
 
-        function mouseover(){
+        function mouseover(highlight){
             b.addEventListener("mouseover", mouseOver);
         }
         
-        function mouseout(){
+        function mouseout(highlight){
             b.addEventListener("mouseout", mouseOut);
                            }
         function click(){
@@ -25,3 +25,4 @@ var OSOR0024 = {
         
     }
 }
+OSOR0024.init()
