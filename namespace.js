@@ -20,27 +20,4 @@ var OSOR0024 = {
             newDiv.style.backgroundColor = "red";
         });
     }
-    
-    
-    //    },
-
-    //    mouseover: function (e) {
-    //        e.target.classList.toggle("highlight");
-    //        newDiv.addEventListener("mouseover", mouseOver);
-    //    },
-    //
-    //    mouseout: function (e) {
-    //        e.target.classList.toggle("highlight");
-    //        e.target.removeAttribute("highlight");
-    //        newDiv.addEventListener("mouseout", mouseOut);
-    //    },
-    //
-    //    click: function () {
-    //        this.style.borderColor = "pink";
-    //        this.style.backgroundColor = "red";
-    //        console.log(this);
-    //        newDiv.addEventListener("click", click);
-    //    }
-
-
 };
