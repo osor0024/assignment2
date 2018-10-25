@@ -20,7 +20,7 @@ var OSOR0024 = {
         newDiv.addEventListener("click", function () {
             newDiv.style.borderColor = "pink";
             newDiv.style.backgroundColor = "red";
-            newDiv.textContent("Hola!!");
+            newDiv.textContent = "Hola!!";
         });
     }
 }
