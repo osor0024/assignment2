@@ -10,11 +10,13 @@ var OSOR0024 = {
 
         newDiv.addEventListener("mouseover", function () {
             newDiv.classList.toggle("highlight");
+            
         });
 
         newDiv.addEventListener("mouseout", function () {
             newDiv.classList.toggle("highlight");
             newDiv.removeAttribute("style");
+            newDiv.textContent = "osor0024";
         });
 
         newDiv.addEventListener("click", function () {
