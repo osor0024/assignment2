@@ -20,6 +20,7 @@ var OSOR0024 = {
             newDiv.style.backgroundColor = "red";
         });
     }
+}
         
     //    },
 
@@ -41,4 +42,4 @@ var OSOR0024 = {
     //        newDiv.addEventListener("click", click);
     //    }
 
-};
+
