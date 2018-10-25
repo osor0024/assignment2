@@ -1,8 +1,8 @@
 var OSOR0024 = {
     init: function () {
         let newDiv = document.createElement("div");
-        newDiv.className("box");
-        newDiv.textContent("osor0024");
+        newDiv.className= "box";
+        newDiv.textContent= "osor0024";
         document.getElementById("boxes").appendChild("div");
 
 
