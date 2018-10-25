@@ -5,20 +5,23 @@ var OSOR0024 = {
         let b = document.querySelector(".box");
         b.textContent("osor0024");
         document.getElementById("boxes").appendChild("div");
+    },
+style: function(){
+    this.style.borderColor = "pink";
+    this.style.backgroundColor = "red";
+},
+    mouseover: function (highlight) {
+        b.addEventListener("mouseover", mouseOver);
+    },
 
+    mouseout: function (highlight) {
+        b.addEventListener("mouseout", mouseOut);
+    },
 
-        function mouseover(highlight) {
-            b.addEventListener("mouseover", mouseOver);
-        },
-
-        function mouseout(highlight) {
-            b.addEventListener("mouseout", mouseOut);
-        },
-
-        function click() {
-            b.addEventListener("click", click);
-        }
-
+    click: function (style) {
+        b.addEventListener("click", click);
     }
+
+
 }
 OSOR0024.init()
