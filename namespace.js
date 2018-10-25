@@ -1,24 +1,27 @@
 var OSOR0024 = {
     init: function () {
-        document.createElement("div");
-        document.getElementsByTagName("div")[0].setAttribute("class", "box");
-        document.querySelector(".box").textContent("osor0024");
+        let newDiv = document.createElement("div");
+        newDiv.className("box");
+        newDiv.textContent("osor0024");
         document.getElementById("boxes").appendChild("div");
     },
-    style: function () {
+
+    mouseover: function (e) {
+        e.target.classList.toggle("highlight");
+        newDiv.addEventListener("mouseover", mouseOver);
+    },
+
+    mouseout: function (e) {
+        e.target.classList.toggle("highlight");
+        e.target.removeAttribute("highlight");
+        newDiv.addEventListener("mouseout", mouseOut);
+    },
+
+    click: function () {
         this.style.borderColor = "pink";
         this.style.backgroundColor = "red";
-    },
-    mouseover: function (highlight) {
-        b.addEventListener("mouseover", mouseOver);
-    },
-
-    mouseout: function (highlight) {
-        b.addEventListener("mouseout", mouseOut);
-    },
-
-    click: function (style) {
-        b.addEventListener("click", click);
+        console.log(this);
+        newDiv.addEventListener("click", click);
     }
 
 
